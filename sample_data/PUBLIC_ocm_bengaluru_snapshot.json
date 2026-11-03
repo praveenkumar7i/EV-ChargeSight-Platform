@@ -1,0 +1,1185 @@
+{
+ "description": "Snapshot of publicly listed EV charging locations in and around Bengaluru, copied field by field from individual Open Charge Map location pages. PUBLIC LISTING data only: no live status.",
+ "retrieved_at": "2026-10-23T18:20:00Z",
+ "retrieval_method": "Manual web retrieval of each OCM location page (openchargemap.org/poi/details/<id>) on 2026-10-23; values copied verbatim. Usage cost currency is not stated by OCM.",
+ "attribution": "Open Charge Map (https://openchargemap.org) and its contributors, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+ "licence": "CC BY 4.0",
+ "notes": [
+  "Several OCM pages show a 'Number of stations/bays' that does not match the connector quantities; connector rows are stored as listed.",
+  "Jio-BP Pulse Hub, Marathalli (OCM-309317) listed eight separate 60 kW CCS rows of 2 connectors each; they are summed here (16).",
+  "Novotel Bengaluru Outer Ring Road (OCM-308811): the postcode is shown as '5700103' on the source page and is kept verbatim.",
+  "Where an OCM page lists several identical connector rows (e.g. seven rows of 2 x 60 kW CCS), their quantities are summed into one row."
+ ],
+ "stations": [
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308919",
+   "name": "Jio BP Chandapura",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Survey No 73, Anekal, Neraluru, Bengaluru, Karnataka, 562107, India",
+   "lat": 12.79284,
+   "lng": 77.72766,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308919",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308905",
+   "name": "Shell Recharge, Chandapura",
+   "operator_name": "Shell Recharge (IN)",
+   "address": "44 Anekal, Balagaranahalli Road, Attibele, Karnataka, 562107, India",
+   "lat": 12.78840738219364,
+   "lng": 77.73682462376587,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 120,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 2,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "23/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308905",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308907",
+   "name": "Shell Recharge Anekal Road",
+   "operator_name": "Shell Recharge (IN)",
+   "address": "Chandapura - Anekal Road, Marsur, Naganaikanahalli, Karnataka, 562106, India",
+   "lat": 12.76356,
+   "lng": 77.70167,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 120,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 2,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "23/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308907",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308890",
+   "name": "Shell Recharge TC Palya",
+   "operator_name": "Shell Recharge (IN)",
+   "address": "136 Thambu Chetty Palya Main Road, Kowdenahalli Main Rd, Bengaluru, Karnataka, 560016, India",
+   "lat": 13.02234,
+   "lng": 77.67867,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 120,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 3,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "23/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308890",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308895",
+   "name": "Shell Recharge Avalahalli",
+   "operator_name": "Shell Recharge (IN)",
+   "address": "Old Madras Road Bidarahalli Hobli, Bangalore East, Bandapura, Karnataka, 560049, India",
+   "lat": 13.04041,
+   "lng": 77.74131,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 120,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 2,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "23/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308895",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309186",
+   "name": "Jio BP Charging Hub Chikkagubbi",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Chikkagubbi Village, Nadagowdagollahalli, Bengaluru, Karnataka, 562149, India",
+   "lat": 13.087848141186939,
+   "lng": 77.66014774782752,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 12,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 42,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309186",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309158",
+   "name": "Jio BP Chikkajala",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "NH 44, Yelahanka, Bengaluru, Karnataka, 562157, India",
+   "lat": 13.16554,
+   "lng": 77.62933,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309158",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309335",
+   "name": "Sheraton Grand Bengaluru Whitefield Hotel & Convention Center",
+   "operator_name": "Chargezone (India)",
+   "address": "Whitefield Road, Prestige Shantiniketan, Hoodi, Whitefield, Bengaluru, Karnataka, 560048, India",
+   "lat": 12.989215375302493,
+   "lng": 77.72961910576282,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "21/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309335",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309337",
+   "name": "Nexus Shantiniketan Jio-BP",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "ITPL Road, Thigalarapalya, Krishnarajapuram, Bengaluru, Karnataka, 560067, India",
+   "lat": 12.989040024957774,
+   "lng": 77.72758362256013,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309337",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309329",
+   "name": "Nexus Whitefield Jio-BP",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "62, Whitefield Main Road, Prestige Ozone, Whitefield, Bengaluru, Karnataka, 560066, India",
+   "lat": 12.960076399887868,
+   "lng": 77.74719391663552,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.4,
+     "quantity": 1,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309329",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309340",
+   "name": "Jio-bp Pulse Hub, Siddhapura",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "#244 Shop No 1 Varthur Main Road, Siddapura, Brookefield, Bengaluru, Karnataka, 560066, India",
+   "lat": 12.957173268150797,
+   "lng": 77.72954555409183,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 12,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 30,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309340",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309344",
+   "name": "Prestige Technostar",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "ITPL Main Road Doddanakundi Industrial Area 2, Phase 1, Doddanekkundi, Bengaluru, Karnataka, 560048, India",
+   "lat": 12.972600290996027,
+   "lng": 77.71145680417794,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309344",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308920",
+   "name": "JioBP Pulse Charging Hub - Electronic City Phase II",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Sy No 62/1, Electronic City, Hobli, Begur, Doddanagamangala Village, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.86462,
+   "lng": 77.67486,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 16,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.5,
+     "quantity": 3,
+     "current": "AC (Three-Phase)"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 45,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 6,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308920",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308918",
+   "name": "Blusmart Charging Station Electronic City Phase 1",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Maragondanahalli, Bommasandra, Shikaripalya Main Road, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.82734,
+   "lng": 77.65552,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 13,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 12,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.5,
+     "quantity": 1,
+     "current": "AC (Three-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308918",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308921",
+   "name": "La Maison Citroën Hosur Road, Bengaluru",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Survey No.4, Khata No. 62-4, Beratena Agrahara Village Begur Hobli, Hosur Rd, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.86308,
+   "lng": 77.65922,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308921",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308923",
+   "name": "ibis Bengaluru Hosur Road",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "26/1, near Central Silk Board Junction, next to The Oxford College, Bommanahalli, Bengaluru, Karnataka, 560068, India",
+   "lat": 12.90073,
+   "lng": 77.63203,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308923",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308922",
+   "name": "Blusmart Charging Station (HSR Hub)",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "ITI Layout, Sector 7, HSR Layout, Bengaluru, Karnataka, 560068, India",
+   "lat": 12.90212,
+   "lng": 77.64191,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 16,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 39,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7,
+     "quantity": 1,
+     "current": "AC (Three-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308922",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309301",
+   "name": "Pratham Motors",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "58/5, Kudlu Road, next to Zee School, HSR Extension, VGP Layout, Somasundarapalya, Bengaluru, Karnataka, 560068, India",
+   "lat": 12.89388,
+   "lng": 77.65157,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309301",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308801",
+   "name": "Orion Brigade Gateway",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Dr Rajkumar Road, Rajajinagar, Bengaluru, Karnataka, 560065, India",
+   "lat": 13.01105,
+   "lng": 77.55471,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.5,
+     "quantity": 1,
+     "current": "AC (Three-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308801",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309318",
+   "name": "Jio-BP Pulse Varthur Hub",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Survey No 13/3, Balagere Road, opposite EuroKids, Devasthanagalu, Varthur, Bengaluru, Karnataka, 560087, India",
+   "lat": 12.93979,
+   "lng": 77.73447,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 32,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 100,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 2,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.5,
+     "quantity": 1,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7,
+     "quantity": 1,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309318",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309317",
+   "name": "Jio-BP Pulse Hub, Marathalli",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "17, behind Biriyani Zone, Vivekananda Layout, Chandra Layout, Marathahalli, Bengaluru, Karnataka, 560037, India",
+   "lat": 12.95179,
+   "lng": 77.70207,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 16,
+     "current": "DC"
+    },
+    {
+     "type": "IEC 60309 3-pin",
+     "power_kw": 3.3,
+     "quantity": 75,
+     "current": "AC (Single-Phase)"
+    },
+    {
+     "type": "GB-T DC (GB/T 20234.3)",
+     "power_kw": 30,
+     "quantity": 6,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7,
+     "quantity": 1,
+     "current": "AC (Three-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309317",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309313",
+   "name": "Big Pitcher Sarjapur Road",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Doddakannelli, 116/9, Ambalipura - Sarjapur Rd, Kaikondrahalli, Bengaluru, Karnataka, 560035, India",
+   "lat": 12.90986,
+   "lng": 77.68856,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309313",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "188200",
+   "name": "Hosa Road",
+   "operator_name": "",
+   "address": "Hosa Road, Chikkanayakanahalli, Karnataka, 560035, India",
+   "lat": 12.911521506082025,
+   "lng": 77.67629825827191,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 3.3,
+     "quantity": 1,
+     "current": "AC (Single-Phase)"
+    }
+   ],
+   "usage_type": "Public - Membership Required",
+   "usage_cost": null,
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/188200",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "308811",
+   "name": "Novotel Bengaluru Outer Ring Road",
+   "operator_name": "Zeon Charging",
+   "address": "ECOSPACE BUSINESS PARK, Sarjapur - Marathahalli Rd, opp. Rmz, Kariyammana Agrahara, Bellandur, Bengaluru, Karnataka, 5700103, India",
+   "lat": 12.9299,
+   "lng": 77.68317,
+   "connections": [
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 22,
+     "quantity": 1,
+     "current": "AC (Three-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "16.5/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/308811",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309309",
+   "name": "DoubleTree Suites by Hilton Bengaluru Outer Ring Road",
+   "operator_name": "Statiq (IN)",
+   "address": "Iblur Gate, Dr. Puneeth Rajkumar Road, Sarjapur Main Road, Bengaluru, Karnataka, 560102, India",
+   "lat": 12.919111753741149,
+   "lng": 77.66515519490173,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309309",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309097",
+   "name": "ibis Bengaluru City Centre",
+   "operator_name": "JIO BP Pulse (India)",
+   "address": "Plot No - 30, Raja Ram Mohan Roy Road, off Richmond Road, Sampangi RamaNagara, Bengaluru, Karnataka, 560027, India",
+   "lat": 12.96751,
+   "lng": 77.5939,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "20/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309097",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309151",
+   "name": "GLIDA Charging Hub",
+   "operator_name": "Statiq (IN)",
+   "address": "Airport Hub, BK Halli Road, Chikkanahalli, Bandikodegehalli Amanikere, Bengaluru, Karnataka, 562157, India",
+   "lat": 13.18324,
+   "lng": 77.67608,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 20,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "17.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309151",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309187",
+   "name": "Elements Mall",
+   "operator_name": "Statiq (IN)",
+   "address": "Thanisandra Main Road, Bengaluru, Karnataka, 560077, India",
+   "lat": 13.04612,
+   "lng": 77.6269,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 150,
+     "quantity": 1,
+     "current": "DC"
+    },
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 1,
+     "current": "DC"
+    },
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 30,
+     "quantity": 1,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309187",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "311454",
+   "name": "Electronic City - BPCL",
+   "operator_name": "Statiq (IN)",
+   "address": "Hosur Road, Konappana Agrahara, Electronic City, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.85327,
+   "lng": 77.6672,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 30,
+     "quantity": 1,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": null,
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/311454",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "311453",
+   "name": "Monk Mansion",
+   "operator_name": "Statiq (IN)",
+   "address": "89, Neeladri Nagar, Electronics City Phase 1, Electronic City, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.841088856819354,
+   "lng": 77.66441658541129,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 4,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/311453",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309349",
+   "name": "Trifecta Addatto",
+   "operator_name": "Statiq (IN)",
+   "address": "ITPL Main Road, Garudachar Palya, Mahadevapura, Bengaluru, Karnataka, 560048, India",
+   "lat": 12.994305942257284,
+   "lng": 77.69929493060977,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 4,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309349",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309339",
+   "name": "DivyaSree LitBox",
+   "operator_name": "Statiq (IN)",
+   "address": "DivyaSree Republic of Whitefield Sy. No. 36/2 & 36/3, Kundanahalli Village, EPIP Zone, Doddanakundi, Whitefield, Bengaluru, Karnataka, 560066, India",
+   "lat": 12.97098961190295,
+   "lng": 77.7250244631253,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309339",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309336",
+   "name": "Nexus Shantiniketan - Statiq",
+   "operator_name": "Statiq (IN)",
+   "address": "ITPL Road, Thigalarapalya, Krishnarajapuram, Bengaluru, Karnataka, 560067, India",
+   "lat": 12.989065694796125,
+   "lng": 77.72760379808074,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 14,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309336",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309334",
+   "name": "Divyasree NR Enclave",
+   "operator_name": "Statiq (IN)",
+   "address": "#1, 1st Main Rd, Whitefield, KIADB Export Promotion Industrial Area, Krishnarajapuram, Bengaluru, Karnataka, 560066, India",
+   "lat": 12.986347110711023,
+   "lng": 77.73038387486008,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309334",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309330",
+   "name": "Nexus Whitefield Statiq",
+   "operator_name": "Statiq (IN)",
+   "address": "62, Whitefield Main Road, Whitefield, Prestige Ozone, Bengaluru, Karnataka, 560066, India",
+   "lat": 12.960076399887868,
+   "lng": 77.74719391663552,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 14,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "17.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309330",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309314",
+   "name": "Bellandur Charging Hub",
+   "operator_name": "Statiq (IN)",
+   "address": "Fitso Panathur PK Sports, Swimming, No.6, Bhoganahalli Road, Panathur Post, Bengaluru, Karnataka, 560103, India",
+   "lat": 12.92924,
+   "lng": 77.70305,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 14,
+     "current": "DC"
+    },
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 30,
+     "quantity": 6,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309314",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309304",
+   "name": "Metropolis Gurukrupa",
+   "operator_name": "Statiq (IN)",
+   "address": "58/1, Hosur Road, Service Road, Aishwarya Crystal Layout, Singasandra, Bengaluru, Karnataka, 560068, India",
+   "lat": 12.87544,
+   "lng": 77.64835,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 1,
+     "current": "DC"
+    },
+    {
+     "type": "Type 2 (Tethered Connector)",
+     "power_kw": 7.4,
+     "quantity": 5,
+     "current": "AC (Three-Phase)"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309304",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309303",
+   "name": "More Hypermarket, Hosur Road",
+   "operator_name": "Statiq (IN)",
+   "address": "#764/A ACC Layout B Block Near National Vemite, Singasandra, Bengaluru, Karnataka, 560068, India",
+   "lat": 12.88014,
+   "lng": 77.64592,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309303",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309297",
+   "name": "Divyashree Greens",
+   "operator_name": "Statiq (IN)",
+   "address": "Visitor Parking, Pine Valley, Embassy Golf-links Business Park, Off Intermediate Ring Road, Challaghatta, Bengaluru, Karnataka, 560071, India",
+   "lat": 12.952724425242494,
+   "lng": 77.64085233195198,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 60,
+     "quantity": 2,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309297",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309271",
+   "name": "Forum Rex Walk",
+   "operator_name": "Statiq (IN)",
+   "address": "Brigade Road, Ashok Nagar, Bengaluru, Karnataka, 560025, India",
+   "lat": 12.972458,
+   "lng": 77.606851,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 30,
+     "quantity": 8,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "17.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309271",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "provider": "open_charge_map",
+   "provider_id": "309306",
+   "name": "MG Motor Hosur Road",
+   "operator_name": "Statiq (IN)",
+   "address": "Old, 2B Workshop No 6, 384, 6/2 1, Hosur Road, Electronic City, Beratena Agrahara, Bengaluru, Karnataka, 560100, India",
+   "lat": 12.86563,
+   "lng": 77.65753,
+   "connections": [
+    {
+     "type": "CCS (Type 2)",
+     "power_kw": 50,
+     "quantity": 1,
+     "current": "DC"
+    },
+    {
+     "type": "CHAdeMO",
+     "power_kw": 50,
+     "quantity": 1,
+     "current": "DC"
+    }
+   ],
+   "usage_type": "Public",
+   "usage_cost": "14.99/kWh",
+   "opening_hours": null,
+   "listed_status": "Operational (as declared by the listing, not live; the page says it has not been recently verified)",
+   "source_url": "https://openchargemap.org/poi/details/309306",
+   "data_provider": "Open Charge Map Contributors",
+   "licence": "CC BY 4.0"
+  }
+ ]
+}

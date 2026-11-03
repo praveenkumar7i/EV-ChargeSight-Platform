@@ -1,0 +1,82 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local database and runtime data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+backups/
+backup_v*/
+backup_v*_pre/
+
+# Development output
+data/keys/
+data/dev_outbox/
+
+# Browser test artifacts
+playwright-report/
+test-results/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Browser automation temporary profiles
+reports/chrome_test_profile/
+reports/v10_2_screenshots/chrome_profile/
+reports/v10_2_screenshots/chrome_profile_2/
+
+# Playwright and browser temporary files
+playwright-report/
+test-results/ 
+
+
+# Browser automation profiles and generated browser data
+reports/**/chrome_profile_*/
+reports/**/playwright*/
+
+
+
+
+
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and backups
+data/*.db
+data/*.db-*
+data/keys/
+data/dev_outbox/
+backups/
+backup_*/
+
+# Browser automation profiles and generated browser data
+reports/v10_2_screenshots/chrome_profile/
+
+# Chrome test browser profile
+reports/chrome_test_profile/
+

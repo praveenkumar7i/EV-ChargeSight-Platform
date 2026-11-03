@@ -1,0 +1,16 @@
+Operator,Government/private ownership,State,District,City or village,Station/location name,Latitude,Longitude,Charger type,Charger rating,Connector rating,Total connectors
+BESCOM,Government,Karnataka,Bengaluru Urban,Bengaluru,Koramangala BDA Complex Hub,12.9348,77.6251,CCS2 / Type 2,60 kW,60 kW DC,4
+Tata Power,Private,Karnataka,Bengaluru Urban,Bengaluru,Electronic City Phase 1 Plaza,12.8465,77.6612,CCS2,50 kW,50 kW DC,2
+Zeon Charging,Private,Karnataka,Bengaluru Urban,Bengaluru,Whitefield Tech Park Gate 3,12.9712,77.7489,CCS2 Dual,120 kW,60 kW DC,2
+BESCOM,Government,Karnataka,Bengaluru Urban,Bengaluru,Yelahanka New Town Bus Stand,13.1012,77.5955,Type 2 AC,22 kW,22 kW AC,3
+Jio-bp pulse,Private,Karnataka,Bengaluru Urban,Bengaluru,HSR Layout Sector 2 Fuel Hub,12.9125,77.6482,CCS2 / CHAdeMO,60 kW,60 kW DC,2
+KPTCL,Government,Karnataka,Bengaluru Urban,Bengaluru,Hebbal Substation Charging Zone,13.0362,77.5981,CCS2,50 kW,50 kW DC,2
+Tata Power,Private,Karnataka,Mysuru,Mysuru,Mysuru Palace South Parking,12.3025,76.6548,CCS2 / Type 2,50 kW,50 kW DC,3
+BESCOM,Government,Karnataka,Tumakuru,Tumakuru,Tumakuru KSRTC Depot Charging,13.3412,77.1025,Type 2 AC,22 kW,22 kW AC,2
+Zeon Charging,Private,Karnataka,Dakshina Kannada,Mangaluru,Mangaluru City Centre Mall,12.8715,74.8432,CCS2 Dual,120 kW,60 kW DC,2
+Ather Grid,Private,Karnataka,Bengaluru Urban,Bengaluru,Indiranagar 100ft Road Station,12.9785,77.6412,Ather Dot AC,3.3 kW,3.3 kW AC,4
+Statcon Energia,Government,Karnataka,Hubballi,Dharwad,Hubli Railway Station Yard,15.3521,75.1412,CCS2,60 kW,60 kW DC,2
+Kazam EV,Private,Karnataka,Bengaluru Urban,Bengaluru,Koramangala 4th Block Community,12.9321,77.6315,Type 2 AC,7.4 kW,7.4 kW AC,3
+ChargeZone,Private,Karnataka,Bengaluru Rural,Devanahalli,Kempegowda Airport Highway Hub,13.2015,77.7125,CCS2 High Power,180 kW,90 kW DC,4
+BESCOM,Government,Karnataka,Bengaluru Urban,Bengaluru,Jayanagar 4th Block Shopping Hub,12.9285,77.5832,Type 2 AC,22 kW,22 kW AC,2
+

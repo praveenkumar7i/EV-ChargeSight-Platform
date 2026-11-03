@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChargeSight</title>
+  <script>try { var t = localStorage.getItem("cs.theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) { }</script>
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Crect width=%2224%22 height=%2224%22 rx=%225%22 fill=%22%232f5bea%22/%3E%3Cpath d=%22M13 3 5 14h6l-1 7 8-11h-6l1-7Z%22 fill=%22white%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+
+<body>
+  <div class="shell">
+    <nav class="nav" id="nav" aria-label="Main">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24">
+            <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" fill="#fff" />
+          </svg></div>
+        <div><b>ChargeSight</b><span>EV charger operations</span></div>
+      </div>
+      <div class="ws-switch" id="wsSwitch"></div>
+      <h6>Operations</h6>
+      <a href="#dashboard" data-route="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <rect x="3" y="3" width="7" height="9" />
+          <rect x="14" y="3" width="7" height="5" />
+          <rect x="14" y="12" width="7" height="9" />
+          <rect x="3" y="16" width="7" height="5" />
+        </svg><span>Fleet dashboard</span></a>
+      <a href="#map" data-route="map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11Z" />
+          <circle cx="12" cy="10" r="2.5" />
+        </svg><span>Map</span></a>
+      <a href="#analytics" data-route="analytics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M3 3v18h18" />
+          <path d="m7 15 4-4 3 3 5-6" />
+        </svg><span>Analytics</span></a>
+      <a href="#tickets" data-route="tickets"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M4 6h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4Z" />
+        </svg><span>Maintenance tickets</span></a>
+      <a href="#technicians" data-route="technicians"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+        </svg><span>Technicians</span></a>
+      <a href="#simulator" data-route="simulator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path d="m10 8 6 4-6 4Z" />
+        </svg><span>Simulator &amp; event timeline</span></a>
+      <h6>Analysis</h6>
+      <a href="#priority" data-route="priority"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" />
+        </svg><span>Priority engine</span></a>
+      <a href="#experiments" data-route="experiments"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3" />
+        </svg><span>Repair policy lab</span></a>
+      <h6>Investment</h6>
+      <a href="#investment" data-route="investment"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M3 17l6-6 4 4 8-8" />
+          <path d="M14 7h7v7" />
+        </svg><span>Site feasibility</span></a>
+      <h6>Evidence</h6>
+      <a href="#integrations" data-route="integrations"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M9 7H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4M15 7h4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-4M8 12h8" />
+        </svg><span>Data integrations</span></a>
+      <a href="#historical" data-route="historical"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="12" cy="12" r="10" />
+          <polyline points="12 6 12 12 16 14" />
+        </svg><span>Historical sessions</span></a>
+      <a href="#validation" data-route="validation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M9 12l2 2 4-4" />
+          <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6Z" />
+        </svg><span>Validation</span></a>
+      <a href="#reports" data-route="reports"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z" />
+          <path d="M14 3v6h6M8 13h8M8 17h5" />
+        </svg><span>Reports &amp; exports</span></a>
+      <h6>Account</h6>
+      <a href="#onboarding" data-route="onboarding"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M9 11l3 3 8-8" />
+          <path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9" />
+        </svg><span>Workspace setup</span></a>
+      <a href="#organisation" data-route="organisation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
+        </svg><span>Organisation &amp; users</span></a>
+      <a href="#billing" data-route="billing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <rect x="2" y="5" width="20" height="14" rx="2" />
+          <path d="M2 10h20" />
+        </svg><span>Subscription &amp; billing</span></a>
+      <a href="#admin" data-route="admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7Z" />
+        </svg><span>Platform admin</span></a>
+      <div class="foot">Academic prototype. Fleet data is <b style="color:#c9d2e3">SIMULATED</b> unless a view says
+        IMPORTED or LIVE.</div>
+    </nav>
+    <div class="main">
+      <header class="topbar">
+        <div style="display:flex;gap:10px;align-items:center;min-width:0">
+          <button class="menu-btn ghost" id="menuBtn" aria-label="Open menu">☰</button>
+          <div>
+            <h1 id="pageTitle">ChargeSight</h1>
+            <div class="sub" id="pageSub"></div>
+          </div>
+        </div>
+        <div class="right">
+          <label class="small muted" for="sourceSel">Data</label>
+          <select id="sourceSel" aria-label="Data source">
+            <option value="simulation">Simulated fleet (default demo)</option>
+            <option value="simulated_imported">Simulated imported stations</option>
+            <option value="station_inventory">Imported station inventory</option>
+            <option value="historical_sessions">Historical research data (IEEE)</option>
+            <option value="operator_import">Imported operator events</option>
+            <option value="operator_api">Operator API</option>
+            <option value="ocpp">OCPP chargers</option>
+          </select>
+          <span id="srcTag"></span>
+          <button class="ghost sm" id="themeBtn" aria-label="Toggle light or dark theme"
+            title="Toggle theme">Theme</button>
+          <span class="chip" id="simChip"><span class="dot"></span><span id="simChipText">Simulator</span></span>
+        </div>
+        <div class="acct" id="acct"></div>
+      </header>
+      <div class="acct-banner" id="acctBanner"></div>
+      <main class="content" id="view" aria-live="polite"></main>
+    </div>
+  </div>
+  <div id="drawerRoot"></div>
+  <div class="toast-wrap" id="toasts" role="status"></div>
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+
+</html>
